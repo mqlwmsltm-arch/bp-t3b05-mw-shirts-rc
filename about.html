@@ -1,659 +1,108 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>망원 셔츠룸 추천 | 정보</title>
-    <meta name="description" content="망원 셔츠룸 추천 — 진짜 남자들만 아는 망원동 셔츠 맛집. 깔끔한 핏, 파격적인 디자인, 가격까지 챙긴 real 리뷰. 지금 확인하고 형들만의 스타일 찾아. 010-6279-0862">
-    <meta name="keywords" content="망원 셔츠룸 추천, 망원 셔츠룸, 망원 셔츠, 망원동 셔츠룸, 망원 셔츠 추천, 셔츠 맛집 망원">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://t3b05-mw-shirts-rc.vercel.app/">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="망원 셔츠룸 추천 | 정보">
-    <meta property="og:description" content="망원 셔츠룸 추천 — 진짜 남자들만 아는 망원동 셔츠 맛집. 깔끔한 핏, 파격적인 디자인, 가격까지 챙긴 real 리뷰. 지금 확인하고 형들만의 스타일 찾아.">
-    <meta property="og:url" content="https://t3b05-mw-shirts-rc.vercel.app/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="망원 셔츠룸">
-    <meta property="og:locale" content="ko_KR">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="망원 셔츠룸 추천 | 정보">
-    <meta name="twitter:description" content="망원 셔츠룸 추천 — 진짜 남자들만 아는 망원동 셔츠 맛집. 깔끔한 핏, 파격적인 디자인, 가격까지 챙긴 real 리뷰. 지금 확인하고 형들만의 스타일 찾아.">
-
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ClothingStore",
-        "name": "망원 셔츠룸",
-        "description": "망원동 대표 셔츠 전문점. 깔끔한 핏과 개성 있는 디자인을 합리적인 가격에 만나보세요.",
-        "url": "https://t3b05-mw-shirts-rc.vercel.app/",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "서울특별시",
-            "addressRegion": "마포구",
-            "addressCountry": "KR"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "셔츠왕김형" },
-                "datePublished": "2025-03-21",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "여기 셔츠 진짜 미쳤다. 핏도 깔끔하고 원단이 고급져. 망원에서 제일 잘하는 곳 인정."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "을지로입술" },
-                "datePublished": "2025-03-15",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "형들 여기 꼭 가봐. 디자인 센스 미쳤고 가격도 합리적이야. 재방문 각."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "홍대셔츠족" },
-                "datePublished": "2025-03-10",
-                "reviewRating": { "@type": "Rating", "ratingValue": "4" },
-                "reviewBody": "생각보다 퀄리티 좋아서 놀랐다. 오버핏 셔츠 하나 샀는데 만족."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "망원로컬" },
-                "datePublished": "2025-03-05",
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "단골인데 항상 실패 없음. 사장님이 친절하고 스타일링 팁도 알려줘."
-            }
-        ]
-    }
-    </script>
-
-    <style>
-        /* ---------- RESET & BASE ---------- */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Impact, system-ui, sans-serif;
-            line-height: 1.3;
-            letter-spacing: 0.02em;
-            max-width: none;
-            overflow-x: hidden;
-        }
-
-        /* ---------- TYPOGRAPHY ---------- */
-        h1, h2, h3, h4 {
-            font-weight: 800;
-            text-transform: uppercase;
-        }
-
-        h1 {
-            font-size: clamp(3.2rem, 12vw, 6rem);
-            line-height: 0.95;
-            letter-spacing: -0.03em;
-        }
-
-        h2 {
-            font-size: clamp(2.4rem, 6vw, 4rem);
-            border-bottom: 4px solid #ff3b00;
-            display: inline-block;
-            padding-bottom: 8px;
-            margin-bottom: 32px;
-        }
-
-        p, li, blockquote {
-            font-family: system-ui, sans-serif;
-            font-weight: 400;
-            font-size: 1.15rem;
-            line-height: 1.6;
-        }
-
-        a {
-            color: #fff;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.15s;
-        }
-
-        a:hover {
-            border-bottom-color: #ff3b00;
-        }
-
-        .accent {
-            color: #ff3b00;
-        }
-
-        /* ---------- LAYOUT ---------- */
-        .container {
-            padding: 72px;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        section {
-            margin-bottom: 120px;
-        }
-
-        .full-bleed {
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-            padding-left: 72px;
-            padding-right: 72px;
-        }
-
-        /* ---------- HEADER ---------- */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 32px 72px;
-            border-bottom: 4px solid #ff3b00;
-            background: #000;
-            position: relative;
-            z-index: 100;
-        }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 800;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            background: #ff3b00;
-            padding: 4px 16px;
-            transform: skew(-6deg);
-            color: #000;
-        }
-
-        .logo a {
-            border-bottom: none;
-            color: #000;
-        }
-
-        .logo a:hover {
-            border-bottom: none;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 36px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        nav a {
-            border-bottom: 3px solid transparent;
-            padding-bottom: 4px;
-        }
-
-        nav a:hover {
-            border-bottom-color: #ff3b00;
-        }
-
-        .header-cta {
-            background: #ff3b00;
-            color: #000;
-            padding: 8px 24px;
-            font-weight: 800;
-            font-size: 1.1rem;
-            border: 3px solid #ff3b00;
-            transition: 0.1s;
-            text-transform: uppercase;
-        }
-
-        .header-cta:hover {
-            background: #000;
-            color: #ff3b00;
-            border-color: #ff3b00;
-        }
-
-        /* Hamburger — only visible on mobile */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 6px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 4px;
-        }
-
-        .hamburger span {
-            display: block;
-            width: 32px;
-            height: 4px;
-            background: #fff;
-            border: 2px solid #000;
-        }
-
-        .mobile-nav {
-            display: none;
-        }
-
-        /* ---------- HERO ---------- */
-        .hero {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 48px;
-            align-items: center;
-            padding-top: 48px;
-        }
-
-        .hero-text {
-            position: relative;
-        }
-
-        .hero-text h1 {
-            margin-bottom: 24px;
-            transform: rotate(-1deg) skew(-2deg);
-        }
-
-        .hero-text p {
-            font-size: 1.4rem;
-            max-width: 520px;
-            margin-bottom: 40px;
-            border-left: 6px solid #ff3b00;
-            padding-left: 20px;
-        }
-
-        .hero-cta {
-            display: inline-block;
-            background: #ff3b00;
-            color: #000;
-            font-size: 1.6rem;
-            font-weight: 800;
-            padding: 12px 40px;
-            border: 4px solid #ff3b00;
-            transform: skew(-4deg);
-            transition: 0.1s;
-            text-transform: uppercase;
-        }
-
-        .hero-cta:hover {
-            background: #000;
-            color: #ff3b00;
-            border-color: #ff3b00;
-        }
-
-        .hero-visual {
-            background: repeating-linear-gradient(
-                45deg,
-                #ff3b00 0px, #ff3b00 8px,
-                #000 8px, #000 16px
-            );
-            border: 6px solid #fff;
-            aspect-ratio: 4 / 3;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transform: rotate(2deg) skew(1deg);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-visual::after {
-            content: "👔🔥";
-            font-size: 8rem;
-            opacity: 0.9;
-            text-shadow: 8px 8px 0 #000;
-        }
-
-        /* ---------- INFO SECTION ---------- */
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 48px;
-            margin-top: 24px;
-        }
-
-        .info-card {
-            background: #111;
-            border: 4px solid #fff;
-            padding: 32px;
-            transform: rotate(-0.5deg);
-        }
-
-        .info-card:nth-child(even) {
-            transform: rotate(0.5deg) translateY(8px);
-        }
-
-        .info-card h3 {
-            font-size: 2rem;
-            margin-bottom: 16px;
-            color: #ff3b00;
-        }
-
-        .info-card ul {
-            list-style: none;
-        }
-
-        .info-card li {
-            padding: 8px 0;
-            border-bottom: 2px solid #333;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .info-card li::before {
-            content: "👉";
-            color: #ff3b00;
-        }
-
-        /* ---------- REVIEWS ---------- */
-        .review-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 48px;
-        }
-
-        .review-card {
-            background: #111;
-            border: 4px solid #fff;
-            padding: 32px 24px;
-            transform: skew(-1deg);
-            transition: 0.1s;
-        }
-
-        .review-card:nth-child(odd) {
-            transform: skew(1deg) translateY(-4px);
-        }
-
-        .review-card:hover {
-            border-color: #ff3b00;
-        }
-
-        .review-card .stars {
-            color: #ff3b00;
-            font-size: 1.6rem;
-            letter-spacing: 4px;
-            display: block;
-            margin-bottom: 12px;
-        }
-
-        .review-card .meta {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.9rem;
-            color: #aaa;
-            margin-bottom: 16px;
-            font-family: system-ui, sans-serif;
-            border-bottom: 2px solid #333;
-            padding-bottom: 8px;
-        }
-
-        .review-card .review-text {
-            font-family: system-ui, sans-serif;
-            font-size: 1.05rem;
-            line-height: 1.5;
-        }
-
-        /* ---------- CONTACT / LOCATION ---------- */
-        .contact-section {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 48px;
-            align-items: center;
-        }
-
-        .contact-info {
-            background: #111;
-            border: 4px solid #ff3b00;
-            padding: 40px;
-            transform: skew(-2deg);
-        }
-
-        .contact-info h2 {
-            border-bottom-color: #fff;
-        }
-
-        .contact-info .phone-big {
-            display: block;
-            font-size: 3rem;
-            font-weight: 800;
-            color: #ff3b00;
-            margin: 24px 0;
-            letter-spacing: 2px;
-            text-decoration: none;
-            border-bottom: none;
-        }
-
-        .contact-info .phone-big:hover {
-            color: #fff;
-        }
-
-        .contact-info .address {
-            font-size: 1.3rem;
-            margin-top: 16px;
-            border-left: 6px solid #ff3b00;
-            padding-left: 16px;
-        }
-
-        .map-placeholder {
-            background: repeating-linear-gradient(
-                -45deg,
-                #222 0px, #222 12px,
-                #000 12px, #000 24px
-            );
-            border: 6px solid #fff;
-            aspect-ratio: 4 / 3;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            transform: rotate(-1deg);
-        }
-
-        .map-placeholder span {
-            background: #000;
-            padding: 8px 24px;
-            border: 3px solid #ff3b00;
-            transform: skew(-3deg);
-        }
-
-        /* ---------- FOOTER ---------- */
-        footer {
-            border-top: 4px solid #ff3b00;
-            padding: 32px 72px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.95rem;
-            font-family: system-ui, sans-serif;
-        }
-
-        footer .copyright {
-            opacity: 0.7;
-        }
-
-        footer .footer-links a {
-            margin-left: 32px;
-            border-bottom: 2px solid transparent;
-        }
-
-        footer .footer-links a:hover {
-            border-bottom-color: #ff3b00;
-        }
-
-        /* ---------- RESPONSIVE ---------- */
-        @media (max-width: 768px) {
-            .container {
-                padding: 36px 20px;
-            }
-
-            header {
-                padding: 20px 24px;
-                flex-wrap: wrap;
-            }
-
-            .logo {
-                font-size: 1.4rem;
-            }
-
-            nav ul {
-                display: none;
-            }
-
-            .header-cta {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            /* mobile nav toggled via checkbox hack */
-            #mobile-toggle {
-                display: none;
-            }
-
-            #mobile-toggle:checked ~ .mobile-nav {
-                display: flex;
-                flex-direction: column;
-                background: #000;
-                border-bottom: 4px solid #ff3b00;
-                padding: 24px 20px;
-                gap: 20px;
-                width: 100%;
-            }
-
-            .mobile-nav a {
-                font-size: 1.4rem;
-                font-weight: 600;
-                text-transform: uppercase;
-                border-bottom: 2px solid #333;
-                padding-bottom: 8px;
-            }
-
-            .mobile-nav a:hover {
-                border-bottom-color: #ff3b00;
-            }
-
-            .hero {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
-
-            .hero-text h1 {
-                transform: none;
-            }
-
-            .hero-visual {
-                aspect-ratio: 3 / 2;
-            }
-
-            .info-grid {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
-
-            .review-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-section {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
-
-            .contact-info {
-                transform: none;
-            }
-
-            .contact-info .phone-big {
-                font-size: 2.2rem;
-            }
-
-            .map-placeholder {
-                aspect-ratio: 3 / 2;
-            }
-
-            footer {
-                flex-direction: column;
-                gap: 16px;
-                padding: 24px;
-                text-align: center;
-            }
-
-            footer .footer-links a {
-                margin: 0 12px;
-            }
-        }
-
-        /* ---------- UTILITY ---------- */
-        .no-border {
-            border: none;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-
-        .mt-48 {
-            margin-top: 48px;
-        }
-
-        .mb-48 {
-            margin-bottom: 48px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>망원 셔츠룸 정보</title>
+  <meta name="description" content="망원에 위치한 셔츠룸을 처음 찾는 분들을 위한 상세 정보와 지역 시그널을 한눈에 정리한 종합 가이드.">
+  <meta name="keywords" content="망원 셔츠룸, 망원 셔츠룸 정보, 셔츠룸 상세, 망원 의류 대여, 망원 패션">
+  <link rel="canonical" href="https://mangwon-room-review.link-hub.org/about.html">
+  <meta property="og:title" content="망원 셔츠룸 정보 — 상세 가이드">
+  <meta property="og:description" content="망원에 위치한 셔츠룸을 처음 찾는 분들을 위한 상세 정보와 지역 시그널을 한눈에 정리한 종합 가이드.">
+  <meta property="og:url" content="https://mangwon-room-review.link-hub.org/about.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="망원 셔츠룸 정보">
+  <meta name="twitter:description" content="망원 셔츠룸에 대한 모든 상세 정보를 제공합니다.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Top Visual -->
+  <section class="v-top-5dt2">
+    <h1>망원 셔츠룸 상세 정보</h1>
+    <p>이 페이지는 망원 지역에 위치한 셔츠룸을 찾는 이들을 위해 준비한 종합 정보 허브입니다. 공간의 특성, 이용 시간대, 접근성, 그리고 현장 상황까지 다양한 각도에서 살펴봅니다.</p>
+  </section>
 
-<!-- HEADER -->
-<header>
-    <div class="logo">
-        <a href="/">👔 망원 셔츠룸</a>
-    </div>
+  <!-- Navigation (공통 유지) -->
+  <nav class="r-nav-5ljo">
+    <h2>목차</h2>
+    <p>
+      <a href="#intro">소개</a> |
+      <a href="#location">위치·교통</a> |
+      <a href="#facilities">시설 구성</a> |
+      <a href="#usage">활용 시나리오</a> |
+      <a href="#signals">지역 시그널</a> |
+      <a href="#faq">FAQ</a>
+    </p>
+  </nav>
 
-    <input type="checkbox" id="mobile-toggle" hidden>
-    <label for="mobile-toggle" class="hamburger" aria-label="메뉴 열기">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
+  <!-- Introduction -->
+  <section id="intro" class="r-hero-k37r">
+    <h2>셀프 스튜디오, 셔츠룸의 정의</h2>
+    <p>셔츠룸은 개인 혹은 소규모 그룹이 자유롭게 옷을 갈아입고 촬영·콘텐츠 제작까지 할 수 있는 복합 공간입니다. 일반적인 탈의실과는 달리, 고품질 조명, 배경지, 그리고 스타일링 소품이 갖춰져 있어 바로 촬영에 돌입할 수 있습니다.</p>
+    <p>망원에 자리 잡은 셔츠룸은 특히 젊은 크리에이터와 패션 애호가들에게 인기가 높으며, 지하철 4호선 망원역에서 도보 5분 이내라는 뛰어난 접근성을 자랑합니다. 이곳은 주거와 상업이 혼합된 분위기 속에서 트렌디한 분위기를 그대로 담아낼 수 있는 최적의 장소입니다.</p>
+  </section>
 
-    <nav aria-label="메인 내비게이션">
-        <ul>
-            <li><a href="#info">정보</a></li>
-            <li><a href="#reviews">리뷰</a></li>
-            <li><a href="#contact">연락처</a></li>
-        </ul>
-    </nav>
+  <!-- Location & Transportation -->
+  <section id="location" class="r-hero-k37r">
+    <h2>위치·교통</h2>
+    <p>셔츠룸은 망원동 245-12번지, 2층에 위치해 있습니다. 건물은 주거·카페 복합형이며, 외관은 모던한 회색 파사드와 큰 유리창이 특징입니다. 정문을 향해 오른쪽으로 들어서면 바로 1층 카페 공간을 지나 2층으로 올라가면 셔츠룸 입구가 보이며, 입구 앞에 설치된 디지털 사이니지가 운영 시간 및 예약 현황을 실시간으로 제공합니다.</p>
+    <p>대중교통 이용 시, 망원역 2번 출구에서 도보 3분 거리이며, 버스 정류장(망원주민센터)도 인접해 있어 버스 노선(02, 04, 08) 이용이 편리합니다. 자가용 이용자는 인근 골목에 주차공간이 제한적이므로, 공유 전동킥보드나 자전거를 활용하는 것이 바람직합니다.</p>
+  </section>
 
-    <a href="tel:010-6279-0862" class="header-cta">📞 전화걸기</a>
+  <!-- Facilities -->
+  <section id="facilities" class="r-hero-k37r">
+    <h2>시설 구성 및 장비</h2>
+    <p>공간은 총 3개의 촬영 구역으로 구분됩니다. 첫 번째 구역은 소형 스튜디오로, 배경지는 흰색·검은색·그레이 색상 3가지가 교체 가능하며, 프리미엄 소프트박스와 LED 라이트 패널이 기본 제공됩니다. 두 번째 구역은 옷걸이형 라운지 형태로, 다양한 의상과 액세서리를 자유롭게 선택할 수 있습니다. 세 번째 구역은 회의·브레인스토밍용 소규모 회의실이며, 화이트보드와 와이파이 전용 포트가 구비돼 있습니다.</p>
+    <p>기술적인 측면에서는 4K 해상도 지원 카메라와 마이크로소프트 Surface Pro 태블릿이 구비돼 있어, 현장에서 바로 영상 편집 및 스트리밍도 가능합니다. 또한, 전용 보관함이 설치돼 있어 장시간 이용 고객이 개인 물품을 안전하게 보관할 수 있습니다.</p>
+  </section>
 
-    <!-- mobile nav drawer -->
-    <div class="mobile-nav">
-        <a href="#info">정보</a>
-        <a href="#reviews">리뷰</a>
-        <a href="#contact">연락처</a>
-        <a href="tel:010-6279-0862" style="border: 2px solid #ff3b00; padding: 8px 16px; text-align: center;">📞 010-6279-0862</a>
-    </div>
-</header>
+  <!-- Usage Scenarios -->
+  <section id="usage" class="r-hero-k37r">
+    <h2>활용 시나리오</h2>
+    <p>1) <strong>패션 촬영·콘텐츠 제작</strong> : 인플루언서와 디자이너가 신상품을 빠르게 촬영하고 SNS에 업로드할 때, 조명과 배경을 즉시 교체하여 다양한 분위기를 연출할 수 있습니다.</p>
+    <p>2) <strong>팀 빌딩·워크샵</strong> : 소규모 기업이 신제품 아이디어를 시각화하고, 즉석에서 프로토타입 사진을 제작해 내부 피드백을 진행하기에 최적화된 환경을 제공합니다.</p>
+    <p>3) <strong>개인 스타일링·리사이클링</strong> : 기존 옷을 재조합하거나, 맞춤형 코디를 시도하고 싶은 개인 사용자에게도 실시간 피드백과 촬영이 가능한 전용 공간을 제공합니다.</p>
+    <p>4) <strong>야간 촬영·야외 분위기 재현</strong> : 야간 조명을 별도 구매하지 않아도, 스튜디오 내에서 다양한 색온도의 조명을 조합해 야경 느낌을 구현할 수 있습니다.</p>
+  </section>
 
-<main>
-    <!-- HERO SECTION -->
-    <section class="container hero" id="hero">
-        <div class="hero-text">
-            <h1>망원 <span class="accent">셔츠룸</span><br>추천은 여기</h1>
-            <p>진짜 형들만 아는 망원동 셔츠 맛집. 깔끔한 핏, 파격적인 디자인, 가격까지 챙겼다. bro, 여기서 스타일 좀 찾아봐.</p>
-            <a href="tel:010-6279-0862" class="hero-cta">🔥 지금 전화</a>
-        </div>
-        <div class="hero-vis
+  <!-- Regional Signals -->
+  <section id="signals" class="r-hero-k37r">
+    <h2>지역 시그널·주변 환경</h2>
+    <p>망원은 최근 3년간 젊은 창업자와 스타트업이 몰려들며, 카페·공유 오피스·예술 공간이 급증하고 있습니다. 이러한 트렌드가 셔츠룸 이용 패턴에 직접적인 영향을 미치며, 특히 저녁 이후에도 카페와 연계된 ‘밤 문화’가 활발히 진행됩니다.</p>
+    <p>주변에는 ‘망원동 플라워 마켓’, ‘망원 청년 문화센터’, ‘핸드메이드 마켓’ 등이 있어, 촬영 후 바로 현장에서 제품을 전시·판매할 수 있는 연계 기회가 풍부합니다. 또한, 인근에 위치한 ‘망원 한강공원’은 일몰 촬영 배경으로 활용되기도 하며, 셔츠룸과의 시너지 효과를 기대할 수 있습니다.</p>
+    <p>시간대별 인구 흐름을 보면, 평일 오후 2시~5시와 주말 오후 3시~6시가 가장 붐비는 시점이며, 이때는 예약이 필수입니다. 반면, 저녁 9시 이후와 새벽 1시 전후는 비교적 한산해 자유롭게 이용할 수 있는 ‘비밀 시간대’로 활용됩니다.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="t-card-heel">
+    <h2>자주 묻는 질문</h2>
+    <ul>
+      <li>
+        <strong>Q: 예약은 어떻게 하나요?</strong><br>
+        A: 공식 웹사이트 혹은 카카오톡 플러스친구 채널을 통해 실시간 예약이 가능하며, 최소 30분 전까지는 취소가 자유롭습니다.
+      </li>
+      <li>
+        <strong>Q: 이용 가능한 시간은 언제인가요?</strong><br>
+        A: 월~금 10:00~22:00, 토·일 09:00~23:00이며, 심야 23:00~02:00는 사전 협의 시 추가 이용이 가능합니다.
+      </li>
+      <li>
+        <strong>Q: 외부 장비를 가져와도 되나요?</strong><br>
+        A: 기본 라이트와 배경 외에 개인 장비 사용이 허용됩니다. 단, 고출력 조명이나 스모크 머신은 사전 승인 필요합니다.
+      </li>
+      <li>
+        <strong>Q: 주차는 어떻게 해결하나요?</strong><br>
+        A: 인근 골목에 소형 전용 주차 공간 2곳이 있어, 사전 예약 시 예약 번호를 제시하면 이용할 수 있습니다.
+      </li>
+      <li>
+        <strong>Q: 촬영 외에 회의나 워크숍도 가능한가요?</strong><br>
+        A: 네, 회의실 모드로 전환 시 화이트보드와 프로젝터를 제공하며, 최대 6인까지 수용 가능합니다.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer (공통) -->
+  <footer class="r-hero-k37r">
+    <p>© 2026 망원 셔츠룸 정보 제공. 모든 권리 보유.</p>
+  </footer>
 </body>
 </html>
